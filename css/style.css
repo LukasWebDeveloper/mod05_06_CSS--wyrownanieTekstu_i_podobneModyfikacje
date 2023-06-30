@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.body {
+    padding: 20px;
+}
+
+.element {
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.element__decoration {
+    text-decoration: underline solid teal;  /* skrót */
+
+    text-decoration-line: line-through;
+    text-decoration-style: dashed;
+    text-decoration-color: red;
+}
+
+.elementIMG__objectIMG {
+    object-fit: contain;
+    object-position: bottom 50px left 50px;
+}
